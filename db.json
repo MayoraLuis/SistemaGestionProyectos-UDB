@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Admin Gerente",
+      "email": "gerente@udb.edu.sv",
+      "password": "123",
+      "rol": "gerente"
+    },
+    {
+      "id": "2",
+      "nombre": "Usuario Estudiante",
+      "email": "usuario@udb.edu.sv",
+      "password": "123",
+      "rol": "usuario"
+    },
+    {
+      "id": "1773953065584",
+      "nombre": "Luis Mayora",
+      "email": "luimayora@udb.edu.sv",
+      "password": "1234",
+      "rol": "usuario"
+    },
+    {
+      "id": "1773957504776",
+      "nombre": "Carlos Mora",
+      "email": "cmora@udb.edu.sv",
+      "password": "1234",
+      "rol": "gerente"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "032c",
+      "nombre": "React",
+      "descripcion": "sdsdsd",
+      "progreso": 60
+    }
+  ],
+  "tareas": [
+    {
+      "id": "1bf2",
+      "nombre": "Actualizar interfaz de usuario",
+      "proyectoId": "032c",
+      "completada": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

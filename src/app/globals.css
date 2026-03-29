@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Forzamos el modo claro para que los colores de la UDB resalten mejor */
+body {
+  background-color: #f3f4f6;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Estilos básicos para que los inputs se vean bien en toda la app */
+input, select, textarea {
+  color: black !important;
+}
+
+/* Transiciones suaves para botones y tarjetas */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}

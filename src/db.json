@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Admin Gerente",
+      "email": "gerente@udb.edu.sv",
+      "password": "123",
+      "rol": "gerente"
+    },
+
+    {
+      "id": "2",
+      "nombre": "Usuario Estudiante",
+      "email": "usuario@udb.edu.sv",
+      "password": "123",
+      "rol": "usuario"
+    }
+
+  ],
+  "proyectos": [],
+  "tareas": []
+}
