@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Sistema de Gestion de Proyectos - UDB
 
-First, run the development server:
+Proyecto desarrollado para la materia de **Diseño y Programación de Software Multiplataforma (DPS)**.  
+Es una aplicación web robusta para la gestión de tareas y proyectos, implementando autenticación por roles y consumo de una API REST local.
 
-```bash
+##Links del proyecto
+Vercel: https://sistema-gestion-proyectos-udb.vercel.app 
+Repositorio: https://github.com/MayoraLuis/SistemaGestionProyectos-UDB
+
+Integrantes:
+1. **Luis Ernesto Mayora Claros**     - (Owner / Branch: `luis-mayora`)
+2. **Hilda Maria Martinez de Reyes**  - (Collaborator / Branch:)
+
+## Tecnologias que se utilizaron 
+* **Frontend:** Next.js 15+, React 19.
+* **Estilos:** Tailwind CSS (Diseño Responsivo).
+* **Gestión de Datos:** Axios para consumo de API.
+* **Backend Simulado:** JSON Server (Puerto 4000).
+* **Despliegue:** Vercel.
+
+## Ejecucion a nivel Local
+
+1. Clonar Repositorio
+git clone [https://github.com/MayoraLuis/SistemaGestionProyectos-UDB.git](https://github.com/MayoraLuis/SistemaGestionProyectos-UDB.git)
+cd sistema-gestion-proyectos
+
+2. Instalacion de dependencias
+ npm install
+
+3. Levantamos el backend ( es importante hacer este paso para que pueda funcionar el login y el CRUD) Ejecutamos el siguiente comando 
+npx json-server --watch db.json --port 4000
+
+4. Ejecutamos el Frontend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+La aplicacion estara disponible en http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Notas importantes:
+El sistema incluye roles de Gerente (Admin) y Usuario (Visualización).
+El despliegue en Vercel funciona como espejo del Frontend, requiriendo el servidor local para la persistencia de datos en esta fase.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Podemos ver la pantalla principal de logueo donde se permitira ingresar dos tipos de user como Admin Gerente y Usuario estudiante
+<img width="195" height="279" alt="image" src="https://github.com/user-attachments/assets/b8902244-96a0-422b-8cf7-e311dbafb2fb" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Podemos ver la pantalla de usuario gerente en donde como admin puede crear el proyecto y asignar tarea a su vez podra eliminarla si lo desea y marcarla como completa 
 
-## Learn More
+<img width="356" height="252" alt="image" src="https://github.com/user-attachments/assets/ff6aa5e9-63b5-44d5-99ea-7d383ca957cb" />
 
-To learn more about Next.js, take a look at the following resources:
+En la siguiente pantalla podemos ver la interfaz de Usuario estudiante, en ella se limitara al usuario a que solo pueda observar el proyecto como tambien las tareas asignadas y a su vez solo podra marcarla como completada cuando esta se finalice
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="310" height="205" alt="image" src="https://github.com/user-attachments/assets/c69837a2-e860-4938-a58d-bf35af2c5658" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+
