@@ -5,8 +5,8 @@ Proyecto desarrollado para la materia de **Diseño y Programación de Software M
 Es una aplicación web robusta para la gestión de tareas y proyectos, implementando autenticación por roles y consumo de una API REST local.
 
 ##Links del proyecto
-Vercel: https://sistema-gestion-proyectos-udb.vercel.app 
-Repositorio: https://github.com/MayoraLuis/SistemaGestionProyectos-UDB
+* ** Vercel: https://sistema-gestion-proyectos-udb.vercel.app 
+* ** Repositorio: https://github.com/MayoraLuis/SistemaGestionProyectos-UDB
 
 Integrantes:
 1. **Luis Ernesto Mayora Claros**     - (Owner / Branch: `luis-mayora`)
